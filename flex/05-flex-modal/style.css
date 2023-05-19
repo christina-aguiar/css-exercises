@@ -20,8 +20,20 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  gap: 16px;
 }
-
+.rest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.header {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: larger;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
